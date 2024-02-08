@@ -36,7 +36,7 @@ const ContactForm = forwardRef<HTMLFormElement, TProps>(
             try {
                 const response = await axios.post("/api/contact", data);
                 if (response.status === 200) {
-                    setServerMessage("Thank you for your message!");
+                    // setServerMessage("Thank you for your message!");
                     reset();
                     Router.push('/success');
                 } else {

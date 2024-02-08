@@ -1,0 +1,3 @@
+import RegistrationSuccessPage from "@components/RegistrationSuccessPage/RegistrationSuccessPage";
+
+export default RegistrationSuccessPage;

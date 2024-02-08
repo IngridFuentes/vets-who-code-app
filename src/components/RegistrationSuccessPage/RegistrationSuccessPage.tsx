@@ -36,9 +36,8 @@ const SuccessPage: React.FC = () => {
         <Container>
             <img src="https://res.cloudinary.com/vetswhocode/image/upload/f_auto,q_auto/v1627489505/VWC_Logo_Horizontal_gsxn3h.png" alt="Logo" width="158" height="26"></img>
             <br />
-            <SuccessMessage> 
-                Thank you for your message!
-                We have received your message and will get back to you shortly.
+            <SuccessMessage>
+                Thank you for your registration!
             </SuccessMessage>
         </Container>
     );
