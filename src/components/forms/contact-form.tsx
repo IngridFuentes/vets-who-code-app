@@ -1,4 +1,5 @@
 import React, { forwardRef, useState } from "react";
+import Router from "next/router";
 import axios from "axios";
 import clsx from "clsx";
 import { useForm, SubmitHandler } from "react-hook-form";
@@ -37,6 +38,7 @@ const ContactForm = forwardRef<HTMLFormElement, TProps>(
                 if (response.status === 200) {
                     setServerMessage("Thank you for your message!");
                     reset();
+                    Router.push('/success');
                 } else {
                     setServerMessage(
                         "There was an error. Please try again later."
